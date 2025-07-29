@@ -2,18 +2,7 @@
 
 ## Instructions:
 
-1. Open folder in vs code
-
-2. Cd into PortfolioSite/portalwebsite (using terminal in vs code)
-
-3. Enter in the terminal: npm install --save-dev vite
-
-4. Enter: npm install
-
-5: Enter npx vite
-
-6: Open the localhost in your browser
-
+1. Go to ashermemon.github.io!
 
 
 ## Navigating the portfolio:
