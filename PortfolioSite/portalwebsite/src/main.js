@@ -136,7 +136,7 @@ controls.heightSpeed = 0;
 
 Array(200).fill().forEach(addStar);*/
 
-const spaceTexture = new THREE.TextureLoader().load("../spacebg.jpg");
+const spaceTexture = new THREE.TextureLoader().load("/spacebg.jpg");
 scene.background = spaceTexture;
 
 function bulbFlicker(bulb) {
