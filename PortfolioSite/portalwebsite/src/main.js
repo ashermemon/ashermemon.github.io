@@ -156,7 +156,7 @@ function bulbFlicker(bulb) {
 }
 
 function loadModel(modelname) {
-  loader.load(`/PortfolioSite/portalwebsite/public/3DModels/${modelname}.glb`, function (gltf) {
+  loader.load(`/3DModels/${modelname}.glb`, function (gltf) {
     scene.add(gltf.scene);
     gltf.scene.traverse((child) => {
       if (child.isMesh) {
