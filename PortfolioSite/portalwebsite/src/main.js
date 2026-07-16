@@ -23,7 +23,7 @@ const camera = new THREE.PerspectiveCamera(
   60,
   window.innerWidth / window.innerHeight,
   0.1,
-  1000
+  1000,
 );
 
 camera.position.set(0, 6.2, 5);
@@ -54,7 +54,7 @@ background3.style.border = "none";
 background3.className = "filter";
 
 const iframe = document.createElement("iframe");
-iframe.src = "/HTMLSITE/HOME.html";
+iframe.src = "/NEWHTMLSITE/index.html";
 iframe.style.width = "1435px";
 iframe.style.height = "1200px";
 iframe.style.border = "none";
@@ -251,7 +251,7 @@ document.addEventListener("click", (event) => {
 
     if (target3.visible == true) {
       target3.visible = false;
-      iframe.src = "/HTMLSITE/HOME.html";
+      iframe.src = "/NEWHTMLSITE/index.html";
       if (target2.visible == false) {
         target2.visible = true;
       }
@@ -339,7 +339,7 @@ function syncIframe() {
   const distance = camera.position.distanceTo(monitorPosition);
 
   const screenNormal = new THREE.Vector3(0, 0, 1).applyQuaternion(
-    iframeObject.quaternion
+    iframeObject.quaternion,
   );
   const camToScreen = new THREE.Vector3()
     .subVectors(iframeObject.position, camera.position)
