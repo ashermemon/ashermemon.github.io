@@ -559,7 +559,11 @@
         font-size: 0.7rem;
         letter-spacing: 0.16em;
         text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.28);
+        color: var(--ink-faint);
+      }
+
+      [data-theme="dark"] .site-credit {
+        color: rgba(255, 255, 255, 0.72);
       }
 
       .site-credit a {
@@ -576,7 +580,7 @@
       }
 
       [data-theme="dark"] #tab-volunteering img[src$="dirt.png"] {
-        filter: brightness(1.8);
+        filter: brightness(1.4);
       }
       [data-theme="light"] #tab-volunteering img[src$="raps.png"] {
         filter: brightness(0.95);
@@ -670,7 +674,7 @@
       .about-block {
         display: flex;
         gap: 26px;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 74px;
         max-width: 640px;
       }
@@ -1034,7 +1038,7 @@
         position: relative;
       }
       .exp-list li::before {
-        content: "—";
+        content: "‣";
         position: absolute;
         left: 0;
         color: var(--ink-faint);
@@ -1461,7 +1465,7 @@
         <div class="social-row" aria-label="Social links">
           <a
             class="icon-btn"
-            href="mailto:ashermemon@icloud.com"
+            href="mailto:asheramemon@gmail.com"
             aria-label="Email"
           >
             <svg
@@ -1622,8 +1626,8 @@
                   <a
                     class="chip chip-green preview-link"
                     href="#projects?tab=experience&amp;item=maize"
-                    data-preview="assets/previews/maize.jpg"
-                    data-preview-label="maize.jpg"
+                    data-preview="images/maize.png"
+                    data-preview-label="maize.png"
                     >Maize</a
                   >, an agricultural drone startup</span
                 >
@@ -1651,7 +1655,7 @@
                     data-preview="assets/previews/eyetype.jpg"
                     data-preview-label="eyetype.jpg"
                     >EyeType</a
-                  >, alternative communication through eye tracking</span
+                  >, free alternative communication through eye tracking</span
                 >
               </li>
               <li>
@@ -1672,7 +1676,7 @@
               </li> -->
             </ul>
 
-            <span class="section-eyebrow">off-screen</span>
+            <span class="section-eyebrow">off screen</span>
             <div class="about-block">
               <div class="media media--photo about-photo">
                 <div class="media-fallback">
@@ -1692,28 +1696,18 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <span class="mf-label">about.jpg</span>
+                  <span class="mf-label">charlie.jpg</span>
                 </div>
                 <img
-                  src="assets/hi/about.jpg"
+                  src="images/charlie2.jpg"
                   alt="Asher outdoors"
                   onerror="mf(this)"
                 />
               </div>
               <p class="about-text">
-                Outside of screens I'm usually outside — on a bike, up a trail,
-                or at the gym. My orange tabby, <b>Charlie</b>, supervises most
-                of it from the windowsill. Every so often I put together a
-                <a
-                  class="u-link preview-link"
-                  href="https://youtube.com/@ashermemon"
-                  target="_blank"
-                  rel="noopener"
-                  data-preview="assets/previews/youtube.jpg"
-                  data-preview-label="youtube.jpg"
-                  >YouTube video</a
-                >
-                too.
+                Outside of screens, I enjoy spending time in nature, hitting the
+                gym and playing basketball with friends. I also have an orange
+                cat named Charlie who's always curled up beside me!
               </p>
             </div>
 
@@ -1795,7 +1789,8 @@
                   <span class="card-title">EyeType</span>
                 </div>
                 <p class="card-desc">
-                  Alternative communication through eye tracking
+                  Free, web-based alternative communication software (eye
+                  tracking)
                 </p>
               </a>
             </div>
@@ -1825,7 +1820,7 @@
             <!-- PROJECTS TAB -->
             <div class="tab-panel active" id="tab-projects">
               <div class="grid-view" id="projectsGridView">
-                <div class="disk-prompt">
+                <!-- <div class="disk-prompt">
                   <div class="disk-icon">
                     <svg
                       viewBox="0 0 24 24"
@@ -1841,7 +1836,7 @@
                     <b>insert a disk to pull up a project</b>
                     <span>or click one below</span>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="proj-grid">
                   <a
@@ -1876,11 +1871,11 @@
                     </div>
                     <div class="card-top">
                       <span class="card-title">Meal Mash</span
-                      ><span class="pill-date">may '25</span>
+                      ><span class="pill-date">may 2025 - present</span>
                     </div>
                     <p class="card-desc">
-                      Turns whatever's left in your fridge into your next meal —
-                      founded, designed, and built end to end.
+                      An app that generates tasty meals with what you have at
+                      home
                     </p>
                   </a>
 
@@ -1916,11 +1911,10 @@
                     </div>
                     <div class="card-top">
                       <span class="card-title">EyeType</span
-                      ><span class="pill-date">oct '25</span>
+                      ><span class="pill-date">october 2025 - present</span>
                     </div>
                     <p class="card-desc">
-                      Assistive communication software using eye tracking and a
-                      fine-tuned LLM, free on any device.
+                      Free alternative communication software (eye tracking)
                     </p>
                   </a>
                 </div>
@@ -1963,7 +1957,7 @@
                     </div>
                     <p class="card-desc">
                       A submission &amp; voting site for a class of student
-                      projects.
+                      projects
                     </p>
                   </a>
                   <a
@@ -2001,7 +1995,7 @@
                       ><span class="pill-date">2023</span>
                     </div>
                     <p class="card-desc">
-                      A recycling-themed platformer, built in 4 days.
+                      A top-down game promoting recycling, built in 4 days
                     </p>
                   </a>
                   <a
@@ -2039,7 +2033,8 @@
                       ><span class="pill-date">2023</span>
                     </div>
                     <p class="card-desc">
-                      A cat-survival game, solo-built to learn Unity.
+                      A cat adventure platformer I developed while learning
+                      Unity
                     </p>
                   </a>
                 </div>
@@ -2156,7 +2151,7 @@
                 >
                 <div class="detail-top">
                   <h2 class="detail-title">EyeType</h2>
-                  <span class="detail-dates">oct 2025 — present</span>
+                  <span class="detail-dates">october 2025 — present</span>
                 </div>
                 <div class="detail-tags">
                   <span class="chip chip-yellow">figma</span
@@ -2432,21 +2427,19 @@
                       >
                     </div>
                     <img
-                      src="assets/experience/maize.jpg"
+                      src="images/maize2.png"
                       alt="Maize"
                       onerror="mf(this)"
                     />
                   </div>
                   <div class="card-top">
                     <span class="exp-title">Mobile App Designer</span
-                    ><span class="pill-date">jun '26 — present</span>
+                    ><span class="pill-date">june 2026 - present</span>
                   </div>
                   <p class="exp-org">Maize Drones</p>
                   <p class="exp-desc">
                     Co-leading app design and contributing to early-stage mobile
-                    development for an agricultural drone startup — turning raw
-                    flight and sensor data into insights farmers can actually
-                    act on.
+                    development for an agricultural drone startup.
                   </p>
                   <ul class="exp-list">
                     <li>
@@ -2459,7 +2452,7 @@
                     </li>
                     <li>
                       Working directly with the founding team to shape early
-                      product direction
+                      product development
                     </li>
                   </ul>
                 </div>
@@ -2477,14 +2470,14 @@
                       >
                     </div>
                     <img
-                      src="assets/experience/secure-defence.jpg"
+                      src="images/securedefence.png"
                       alt="Secure Defence Corporation"
                       onerror="mf(this)"
                     />
                   </div>
                   <div class="card-top">
                     <span class="exp-title">Intern</span
-                    ><span class="pill-date">jun — sep '24</span>
+                    ><span class="pill-date">june - september 2024</span>
                   </div>
                   <p class="exp-org">Secure Defence Corporation</p>
                   <p class="exp-desc">
@@ -2493,13 +2486,12 @@
                   </p>
                   <ul class="exp-list">
                     <li>
-                      Configured networking hardware — WiFi access points,
-                      cellular routers, and access points — for live site
-                      monitoring
+                      Configured networking hardware including access points and
+                      cellular routers for use at construction sites
                     </li>
                     <li>
-                      Built and provisioned high-end servers for the video
-                      monitoring office
+                      Built and provisioned high-end servers for the monitoring
+                      office
                     </li>
                   </ul>
                 </div>
@@ -2539,14 +2531,17 @@
                     <div class="card-top">
                       <span class="exp-title"
                         >Phenomenal Physics Summer Camp Volunteer</span
-                      ><span class="pill-date">jul '26</span>
+                      ><span class="pill-date" style="margin-left: 10px"
+                        >july 2026</span
+                      >
                     </div>
                     <p class="exp-org">The University of British Columbia</p>
                     <p class="exp-desc">
-                      Volunteered a full week (45+ hours) at UBC's
-                      astronomy-themed Phenomenal Physics camp — setting up and
-                      tearing down classrooms, leading activities, and mentoring
-                      students through the day's lessons.
+                      Volunteered a full camp week (45+ hours) at UBC's
+                      astronomy Phenomenal Physics camp. Responsibilities
+                      included setting up and tidying classrooms, leading
+                      activities, and mentoring students throughout the
+                      sessions.
                     </p>
                   </div>
                 </div>
@@ -2581,16 +2576,18 @@
                       <span class="exp-title"
                         >Cat Sanctuary Volunteer — Visiting Hours
                         Ambassador</span
-                      ><span class="pill-date">apr — nov '25</span>
+                      >
+                      <span class="pill-date" style="margin-left: 10px"
+                        >april - november 2025</span
+                      >
                     </div>
                     <p class="exp-org">
                       RAPS (Regional Animal Protection Society)
                     </p>
                     <p class="exp-desc">
-                      Greeted visitors at the RAPS Cat Sanctuary in Richmond,
-                      answered questions, staffed the ticket booth, and helped
-                      visiting hours run smoothly at a no-kill sanctuary home to
-                      hundreds of cats.
+                      Greeted visitors at the RAPS Cat Sanctuary, answered their
+                      questions, ensured they followed the rules, and promoted
+                      animal welfare education.
                     </p>
                   </div>
                 </div>
@@ -2624,7 +2621,10 @@
                     <div class="card-top">
                       <span class="exp-title"
                         >DIRT — Dedicated Invasives Removal Team</span
-                      ><span class="pill-date">jul — dec '25</span>
+                      >
+                      <span class="pill-date" style="margin-left: 10px"
+                        >july - december 2025</span
+                      >
                     </div>
                     <p class="exp-org">Stanley Park Ecology Society</p>
                     <p class="exp-desc">
@@ -2653,29 +2653,19 @@
                     <span class="skill-name">Figma</span>
                   </div>
                   <p class="skill-desc">
-                    Where every product idea starts. Used it to design full app
-                    prototypes for Meal Mash and Maize, on top of a dedicated
-                    web-dev design class.
+                    I learned Figma in my Web Development 10 class and use it to
+                    design before developing for projects like Meal Mash,
+                    EyeType and the Maize app.
                   </p>
-                  <div class="skill-links">
-                    <a href="#projects?tab=projects&amp;item=meal-mash"
-                      >meal mash</a
-                    ><a href="#projects?tab=experience">maize</a>
-                  </div>
                 </div>
                 <div class="skill-card">
                   <div class="skill-card-top">
                     <span class="skill-name">React &amp; React Native</span>
                   </div>
                   <p class="skill-desc">
-                    The stack behind nearly everything I ship — Meal Mash,
-                    Maize's mobile prototype, and most of my web projects.
+                    I use React Native for app development (Meal Mash), and use
+                    React for web apps like EyeType.
                   </p>
-                  <div class="skill-links">
-                    <a href="#projects?tab=projects&amp;item=meal-mash"
-                      >meal mash</a
-                    ><a href="#projects?tab=experience">maize</a>
-                  </div>
                 </div>
 
                 <div class="skill-card">
@@ -2683,9 +2673,9 @@
                     <span class="skill-name">VEX Robotics</span>
                   </div>
                   <p class="skill-desc">
-                    Programmer, notebooker, and strategist on my school's team
-                    in grade 11 — qualified for BC provincials. Back for another
-                    season this year, aiming to go further.
+                    Programmer and notebooker for one of my school's robotics
+                    teams. Helped the team qualify for the provincial
+                    championship in Grade 11. I plan to compete again next year.
                   </p>
                 </div>
                 <div class="skill-card">
@@ -2693,16 +2683,12 @@
                     <span class="skill-name">AI</span>
                   </div>
                   <p class="skill-desc">
-                    Fine-tuned a language model for EyeType to predict full
-                    words and phrases from the first letters someone looks at —
-                    the core of how it turns a glance into a sentence. Generally
-                    hooked on finding the next excuse to train something.
+                    I apply machine learning to my newer projects including
+                    fine-tuning the abbreviation expansion AI model for EyeType.
+                    I am also working on incorporating computer vision AI into
+                    Meal Mash with a pantry scan feature (snap a photo of the
+                    ingredients you have to add them).
                   </p>
-                  <div class="skill-links">
-                    <a href="#projects?tab=projects&amp;item=eyetype"
-                      >eyetype</a
-                    >
-                  </div>
                 </div>
 
                 <div class="skill-card skill-card--media" style="padding: 0">
@@ -2739,9 +2725,8 @@
                       <span class="skill-name">Unity</span>
                     </div>
                     <p class="skill-desc" style="margin-bottom: 0">
-                      My favourite way to learn game dev. Built Roy the Garbage
-                      Boy in four days, and City of the Cats solo, mostly to see
-                      if I could.
+                      I used to use Unity a lot for game development and hope to
+                      get back into it soon.
                     </p>
                   </div>
                 </div>
@@ -2766,10 +2751,10 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         /></svg
-                      ><span class="mf-label">blender-landscape.jpg</span>
+                      ><span class="mf-label">blender.png</span>
                     </div>
                     <img
-                      src="assets/skills/blender-landscape.jpg"
+                      src="images/blender.png"
                       alt="Blender landscape render"
                       onerror="mf(this)"
                     />
@@ -2779,8 +2764,15 @@
                       <span class="skill-name">Blender</span>
                     </div>
                     <p class="skill-desc" style="margin-bottom: 0">
-                      Still learning, but proud of it — most recently this
-                      landscape scene, which took a while to light right.
+                      I learned Blender in a week and made a
+                      <a
+                        class="u-link"
+                        target="_blank"
+                        href="https://www.youtube.com/watch?v=PrsdolVF56Y"
+                        >Youtube video</a
+                      >
+                      on it! I also made this scene recently for a Media Arts
+                      class assignment!
                     </p>
                   </div>
                 </div>
@@ -2801,8 +2793,9 @@
                     <span class="skill-name">Java</span>
                   </div>
                   <p class="skill-desc">
-                    Learned properly through AP Computer Science A, then put to
-                    use modding Minecraft for fun.
+                    I learned Java when doing some Minecraft modding when I was
+                    younger, and, more recently, through taking AP Computer
+                    Science.
                   </p>
                 </div>
                 <div class="skill-card">
@@ -2810,8 +2803,8 @@
                     <span class="skill-name">Python</span>
                   </div>
                   <p class="skill-desc">
-                    The first language I ever learned — still my go-to for quick
-                    scripts and experiments.
+                    Python was the first language I learned, mostly to make
+                    games with PyGame.
                   </p>
                 </div>
                 <div class="skill-card">
@@ -2819,8 +2812,18 @@
                     <span class="skill-name">C++</span>
                   </div>
                   <p class="skill-desc">
-                    Picked up alongside Java and Python; mostly used for
-                    lower-level and robotics-adjacent work.
+                    I've used C++ mostly for the CCC contest and for robotics
+                    programming (and Arduino).
+                  </p>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-card-top">
+                    <span class="skill-name">JavaScript</span>
+                  </div>
+                  <p class="skill-desc">
+                    Learned JavaScript along with HTML and CSS for Web
+                    Development 10 class. React and React Native are JavaScript
+                    libraries, so most of my projects now are written in JS.
                   </p>
                 </div>
               </div>
@@ -2956,6 +2959,7 @@
         /* ---------- mobile drawer ---------- */
         var sidebar = document.getElementById("sidebar");
         var backdrop = document.getElementById("sidebarBackdrop");
+        var menuToggle = document.getElementById("menuToggle");
         function openSidebar() {
           sidebar.classList.add("open");
           backdrop.classList.add("open");
@@ -2964,9 +2968,14 @@
           sidebar.classList.remove("open");
           backdrop.classList.remove("open");
         }
-        document
-          .getElementById("menuToggle")
-          .addEventListener("click", openSidebar);
+        function toggleSidebar() {
+          if (sidebar.classList.contains("open")) {
+            closeSidebar();
+          } else {
+            openSidebar();
+          }
+        }
+        menuToggle.addEventListener("click", toggleSidebar);
         backdrop.addEventListener("click", closeSidebar);
         document.querySelectorAll(".nav-link").forEach(function (a) {
           a.addEventListener("click", closeSidebar);
