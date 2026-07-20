@@ -1135,6 +1135,10 @@
         aspect-ratio: 4/3;
       }
 
+      .detail-gallery .media {
+        aspect-ratio: 4/3;
+      }
+
       /* ============================================================
    SKILLS PAGE
    ============================================================ */
@@ -1639,8 +1643,8 @@
                   <a
                     class="chip chip-blue preview-link"
                     href="#projects?tab=projects&amp;item=meal-mash"
-                    data-preview="assets/previews/meal-mash.jpg"
-                    data-preview-label="meal-mash.jpg"
+                    data-preview="images/mealmash.png"
+                    data-preview-label="mealmash.png"
                     >Meal Mash</a
                   >, generating tasty meals with what you have</span
                 >
@@ -1652,8 +1656,8 @@
                   <a
                     class="chip chip-lavender preview-link"
                     href="#projects?tab=projects&amp;item=eyetype"
-                    data-preview="assets/previews/eyetype.jpg"
-                    data-preview-label="eyetype.jpg"
+                    data-preview="images/eyetype.png"
+                    data-preview-label="eyetype.png"
                     >EyeType</a
                   >, free alternative communication through eye tracking</span
                 >
@@ -1722,7 +1726,7 @@
                 class="mini-card"
                 href="#projects?tab=projects&amp;item=meal-mash"
               >
-                <div class="media media--photo">
+                <div class="media media--photo" style="aspect-ratio: 16/10">
                   <div class="media-fallback">
                     <svg
                       viewBox="0 0 24 24"
@@ -1740,10 +1744,10 @@
                         stroke-linejoin="round"
                       />
                     </svg>
-                    <span class="mf-label">meal-mash.jpg</span>
+                    <span class="mf-label">mealmash2.png</span>
                   </div>
                   <img
-                    src="assets/projects/meal-mash.jpg"
+                    src="images/mealmash2.png"
                     alt="Meal Mash"
                     onerror="mf(this)"
                   />
@@ -1759,7 +1763,7 @@
                 class="mini-card"
                 href="#projects?tab=projects&amp;item=eyetype"
               >
-                <div class="media media--photo">
+                <div class="media media--photo" style="aspect-ratio: 16/10">
                   <div class="media-fallback">
                     <svg
                       viewBox="0 0 24 24"
@@ -1777,10 +1781,10 @@
                         stroke-linejoin="round"
                       />
                     </svg>
-                    <span class="mf-label">eyetype.jpg</span>
+                    <span class="mf-label">eyetype2.png</span>
                   </div>
                   <img
-                    src="assets/projects/eyetype.jpg"
+                    src="images/eyetype2.png"
                     alt="EyeType"
                     onerror="mf(this)"
                   />
@@ -1861,10 +1865,10 @@
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           /></svg
-                        ><span class="mf-label">meal-mash.jpg</span>
+                        ><span class="mf-label">mealmash2.png</span>
                       </div>
                       <img
-                        src="assets/projects/meal-mash.jpg"
+                        src="images/mealmash2.png"
                         alt="Meal Mash"
                         onerror="mf(this)"
                       />
@@ -1901,10 +1905,10 @@
                             stroke-linecap="round"
                             stroke-linejoin="round"
                           /></svg
-                        ><span class="mf-label">eyetype.jpg</span>
+                        ><span class="mf-label">eyetype2.png</span>
                       </div>
                       <img
-                        src="assets/projects/eyetype.jpg"
+                        src="images/eyetype2.png"
                         alt="EyeType"
                         onerror="mf(this)"
                       />
@@ -1923,49 +1927,10 @@
                 <div class="proj-grid-small">
                   <a
                     class="proj-card"
-                    href="#projects?tab=projects&amp;item=web-portal"
-                    data-item="web-portal"
-                  >
-                    <div class="media media--photo">
-                      <div class="media-fallback">
-                        <svg
-                          viewBox="0 0 24 24"
-                          width="18"
-                          height="18"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="1.6"
-                        >
-                          <rect x="3" y="3" width="18" height="18" rx="3" />
-                          <circle cx="9" cy="9" r="1.6" />
-                          <path
-                            d="m5 17 5-5 3 3 4-5 2 3"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          /></svg
-                        ><span class="mf-label">portal.png</span>
-                      </div>
-                      <img
-                        src="images/portal.png"
-                        alt="Website Submission Portal"
-                        onerror="mf(this)"
-                      />
-                    </div>
-                    <div class="card-top">
-                      <span class="card-title">Web Portal</span
-                      ><span class="pill-date">2023</span>
-                    </div>
-                    <p class="card-desc">
-                      A submission &amp; voting site for a class of student
-                      projects
-                    </p>
-                  </a>
-                  <a
-                    class="proj-card"
                     href="#projects?tab=projects&amp;item=roy-the-garbage-boy"
                     data-item="roy-the-garbage-boy"
                   >
-                    <div class="media media--photo">
+                    <div class="media media--photo" style="aspect-ratio: 16/10">
                       <div class="media-fallback">
                         <svg
                           viewBox="0 0 24 24"
@@ -2003,7 +1968,7 @@
                     href="#projects?tab=projects&amp;item=city-of-the-cats"
                     data-item="city-of-the-cats"
                   >
-                    <div class="media media--photo">
+                    <div class="media media--photo" style="aspect-ratio: 16/10">
                       <div class="media-fallback">
                         <svg
                           viewBox="0 0 24 24"
@@ -2035,6 +2000,84 @@
                     <p class="card-desc">
                       A cat adventure platformer I developed while learning
                       Unity
+                    </p>
+                  </a>
+                  <a
+                    class="proj-card"
+                    href="#projects?tab=projects&amp;item=code-kitty"
+                    data-item="code-kitty"
+                  >
+                    <div class="media media--photo" style="aspect-ratio: 16/10">
+                      <div class="media-fallback">
+                        <svg
+                          viewBox="0 0 24 24"
+                          width="18"
+                          height="18"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.6"
+                        >
+                          <rect x="3" y="3" width="18" height="18" rx="3" />
+                          <circle cx="9" cy="9" r="1.6" />
+                          <path
+                            d="m5 17 5-5 3 3 4-5 2 3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          /></svg
+                        ><span class="mf-label">codekitty.png</span>
+                      </div>
+                      <img
+                        src="images/codekitty.png"
+                        alt="Code Kitty Project"
+                        onerror="mf(this)"
+                      />
+                    </div>
+                    <div class="card-top">
+                      <span class="card-title">Code Kitty</span
+                      ><span class="pill-date">2023</span>
+                    </div>
+                    <p class="card-desc">
+                      A game that teaches players fundamental programming
+                      concepts
+                    </p>
+                  </a>
+                  <a
+                    class="proj-card"
+                    href="#projects?tab=projects&amp;item=web-portal"
+                    data-item="web-portal"
+                  >
+                    <div class="media media--photo" style="aspect-ratio: 16/10">
+                      <div class="media-fallback">
+                        <svg
+                          viewBox="0 0 24 24"
+                          width="18"
+                          height="18"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.6"
+                        >
+                          <rect x="3" y="3" width="18" height="18" rx="3" />
+                          <circle cx="9" cy="9" r="1.6" />
+                          <path
+                            d="m5 17 5-5 3 3 4-5 2 3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          /></svg
+                        ><span class="mf-label">portal.png</span>
+                      </div>
+                      <img
+                        src="images/portal.png"
+                        alt="Website Submission Portal"
+                        onerror="mf(this)"
+                      />
+                    </div>
+                    <div class="card-top">
+                      <span class="card-title">Web Portal</span
+                      ><span class="pill-date">2023</span>
+                    </div>
+                    <p class="card-desc">
+                      A submission &amp; voting site for a class of student
+                      projects
                     </p>
                   </a>
                 </div>
@@ -2071,13 +2114,27 @@
                 </div>
                 <p class="detail-desc">
                   Meal Mash turns whatever's left in your fridge into your next
-                  meal. I founded, designed, and built the app end-to-end — snap
-                  a photo of your ingredients and get back recipes that actually
-                  use them up, before they go to waste. It's equal parts an
-                  anti-food-waste tool and a "what's for dinner" shortcut.
+                  meal. The app aims to both save food from going to waste and
+                  save time by generating quick recipes using your ingredients
+                  and leftovers. I began development as an assignment for a
+                  programming class with a simple prototype, however, since
+                  then, I have redesigned and completely reshaped the app! Snap
+                  a photo of your pantry and swipe through tasty recipes until
+                  you find one you want to make!
+
+                  <br />
+                  <br />
+                  <a
+                    class="u-link"
+                    href="https://github.com/ashermemon/meal-mash"
+                    target="_blank"
+                    rel="noopener"
+                    >Meal Mash Github</a
+                  >
+                  <br />
                 </p>
                 <div class="detail-gallery">
-                  <div class="media media--photo">
+                  <div class="media media--photo" style="aspect-ratio: 16/10">
                     <div class="media-fallback">
                       <svg
                         viewBox="0 0 24 24"
@@ -2094,10 +2151,10 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         /></svg
-                      ><span class="mf-label">meal-mash-1.jpg</span>
+                      ><span class="mf-label">mealmash2.png</span>
                     </div>
                     <img
-                      src="assets/projects/meal-mash-1.jpg"
+                      src="images/mealmash2.png"
                       alt="Meal Mash screen 1"
                       onerror="mf(this)"
                     />
@@ -2119,10 +2176,10 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         /></svg
-                      ><span class="mf-label">meal-mash-2.jpg</span>
+                      ><span class="mf-label">mealmash.png</span>
                     </div>
                     <img
-                      src="assets/projects/meal-mash-2.jpg"
+                      src="images/mealmash.png"
                       alt="Meal Mash screen 2"
                       onerror="mf(this)"
                     />
@@ -2159,17 +2216,31 @@
                   ><span class="chip chip-lavender">ai</span>
                 </div>
                 <p class="detail-desc">
-                  EyeType is an augmentative and alternative communication
-                  system built for people with severe motor impairments —
-                  including ALS, cerebral palsy, and muscular dystrophy. It
-                  pairs eye tracking with a fine-tuned language model that
-                  predicts full words and phrases from just the first letters
-                  someone looks at, so a full sentence takes a glance instead of
-                  a slow letter-by-letter spell-out. It runs in any browser, on
-                  any device, for free — no extra hardware required.
+                  EyeType is a web-based augmentative and alternative
+                  communication software built for individuals with severe motor
+                  impairments including ALS, cerebral palsy, and muscular
+                  dystrophy. It uses eye tracking and a fine-tuned LLM to
+                  significantly outperform baselines and make communication
+                  easier for those with motor impairments. The user simply types
+                  the first letter of each word, and the software automatically
+                  predicts complete phrases based on the context of the
+                  conversation. It is completely free and requires no external
+                  hardware.
+
+                  <br />
+                  <br />
+                  <a
+                    class="u-link"
+                    href="https://github.com/ashermemon/eyetype"
+                    target="_blank"
+                    rel="noopener"
+                    >Eyetype Github</a
+                  >
+
+                  <br />
                 </p>
                 <div class="detail-gallery">
-                  <div class="media media--photo">
+                  <div class="media media--photo" style="aspect-ratio: 16/10">
                     <div class="media-fallback">
                       <svg
                         viewBox="0 0 24 24"
@@ -2189,7 +2260,7 @@
                       ><span class="mf-label">eyetype-1.jpg</span>
                     </div>
                     <img
-                      src="assets/projects/eyetype-1.jpg"
+                      src="images/eyetype2.png"
                       alt="EyeType screen 1"
                       onerror="mf(this)"
                     />
@@ -2211,10 +2282,10 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         /></svg
-                      ><span class="mf-label">eyetype-2.jpg</span>
+                      ><span class="mf-label">eyetype.png</span>
                     </div>
                     <img
-                      src="assets/projects/eyetype-2.jpg"
+                      src="images/eyetype.png"
                       alt="EyeType screen 2"
                       onerror="mf(this)"
                     />
@@ -2250,13 +2321,13 @@
                   ><span class="chip chip-yellow">react</span>
                 </div>
                 <p class="detail-desc">
-                  A submission-and-voting portal built for my Web Dev class,
+                  A submission and voting portal built for my Web Dev class,
                   where classmates could publish their own sites, browse
                   everyone else's, and vote on favourites. Built in
                   collaboration with another student.
                 </p>
                 <div class="detail-gallery">
-                  <div class="media media--photo">
+                  <div class="media media--photo" style="aspect-ratio: 16/10">
                     <div class="media-fallback">
                       <svg
                         viewBox="0 0 24 24"
@@ -2278,6 +2349,105 @@
                     <img
                       src="images/portal.png"
                       alt="Web Portal screen"
+                      onerror="mf(this)"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="detail-view"
+                id="detail-code-kitty"
+                data-detail="code-kitty"
+              >
+                <a class="back-link" href="#projects?tab=projects"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                  >
+                    <path
+                      d="M15 6l-6 6 6 6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg
+                  >back to all projects</a
+                >
+                <div class="detail-top">
+                  <h2 class="detail-title">Code Kitty</h2>
+                  <span class="detail-dates">2023</span>
+                </div>
+                <div class="detail-tags">
+                  <span class="chip chip-lavender">unity</span
+                  ><span class="chip chip-blue">c#</span
+                  ><span class="chip chip-green">game dev</span>
+                </div>
+                <p class="detail-desc">
+                  CodeKitty is a game about a cat who learns to code through
+                  interactive lessons and minigames! It aims to teach players
+                  fundamental programming concepts in a fun and engaging format.
+
+                  <br />
+                  <br />
+                  <a
+                    class="u-link"
+                    href="https://youtu.be/Y5tdnu5KCys?si=D448pmb-IWNnEAbc"
+                    target="_blank"
+                    rel="noopener"
+                    >Code Kitty Youtube Video</a
+                  >
+
+                  <br />
+                </p>
+                <div class="detail-gallery">
+                  <div class="media media--photo" style="aspect-ratio: 16/10">
+                    <div class="media-fallback">
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                      >
+                        <rect x="3" y="3" width="18" height="18" rx="3" />
+                        <circle cx="9" cy="9" r="1.6" />
+                        <path
+                          d="m5 17 5-5 3 3 4-5 2 3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        /></svg
+                      ><span class="mf-label">codekitty.png</span>
+                    </div>
+                    <img
+                      src="images/codekitty.png"
+                      alt="Code Kitty Screenshot"
+                      onerror="mf(this)"
+                    />
+                  </div>
+                  <div class="media media--photo" style="aspect-ratio: 16/9">
+                    <div class="media-fallback">
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                      >
+                        <rect x="3" y="3" width="18" height="18" rx="3" />
+                        <circle cx="9" cy="9" r="1.6" />
+                        <path
+                          d="m5 17 5-5 3 3 4-5 2 3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        /></svg
+                      ><span class="mf-label">codekitty2.png</span>
+                    </div>
+                    <img
+                      src="images/codekitty2.png"
+                      alt="Code Kitty screen 2"
                       onerror="mf(this)"
                     />
                   </div>
@@ -2313,13 +2483,27 @@
                   ><span class="chip chip-blue">c#</span>
                 </div>
                 <p class="detail-desc">
-                  A recycling-awareness platformer starring a trash-sorting hero
-                  named Roy, built from scratch in four days in Unity. Developed
-                  in collaboration with another student to make the case for
-                  recycling a little more fun.
+                  Roy The Garbage Boy is a game made to promote recycling for
+                  vsHacks2023 (4-day online hackathon). You play as Roy, a boy
+                  who fights vicious trash enemies littered in the beautiful
+                  environment around him. Roy recycles the garbage scraps he
+                  gets from killing the enemies to upgrade his own gear to
+                  continue fighting more trash monsters!
+
+                  <br />
+                  <br />
+                  <a
+                    class="u-link"
+                    href="https://ashergamedev.itch.io/roy-the-garbage-boy"
+                    target="_blank"
+                    rel="noopener"
+                    >Play Roy The Garbage Boy</a
+                  >
+
+                  <br />
                 </p>
                 <div class="detail-gallery">
-                  <div class="media media--photo">
+                  <div class="media media--photo" style="aspect-ratio: 16/10">
                     <div class="media-fallback">
                       <svg
                         viewBox="0 0 24 24"
@@ -2340,7 +2524,32 @@
                     </div>
                     <img
                       src="images/roy.png"
-                      alt="Roy the Garbage Boy screen"
+                      alt="Roy game screen 1"
+                      onerror="mf(this)"
+                    />
+                  </div>
+                  <div class="media media--photo">
+                    <div class="media-fallback">
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                      >
+                        <rect x="3" y="3" width="18" height="18" rx="3" />
+                        <circle cx="9" cy="9" r="1.6" />
+                        <path
+                          d="m5 17 5-5 3 3 4-5 2 3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        /></svg
+                      ><span class="mf-label">roy.png</span>
+                    </div>
+                    <img
+                      src="images/roy2.png"
+                      alt="Roy screen 2"
                       onerror="mf(this)"
                     />
                   </div>
@@ -2376,11 +2585,23 @@
                   ><span class="chip chip-green">game dev</span>
                 </div>
                 <p class="detail-desc">
-                  You play a cat defending the City of Cats from a monster
-                  apocalypse — rescuing fellow cats along the way and building a
-                  crew as you push further in. My first real dive into Unity and
-                  game design, built solo to learn the engine end to end.
+                  City of the Cats is an adventure game where you play as a lost
+                  cat trying to save the city from monsters. While exploring,
+                  you rescue other cats, avoid enemies and collect cat treats! I
+                  made this game to learn Unity and how to make pixel art for
+                  the first time!
+                  <br />
+                  <br />
+                  <a
+                    class="u-link"
+                    href="https://www.youtube.com/playlist?list=PLEd1gMrDbZ3h9lcBuGWbkD6ptAhBPQHQP"
+                    target="_blank"
+                    rel="noopener"
+                    >City of the Cats Youtube Devlogs</a
+                  >
+                  <br />
                 </p>
+
                 <div class="detail-gallery">
                   <div class="media media--photo">
                     <div class="media-fallback">
@@ -2712,10 +2933,10 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         /></svg
-                      ><span class="mf-label">unity.jpg</span>
+                      ><span class="mf-label">unity.png</span>
                     </div>
                     <img
-                      src="assets/skills/unity.jpg"
+                      src="images/unity.png"
                       alt="Blender landscape render"
                       onerror="mf(this)"
                     />
