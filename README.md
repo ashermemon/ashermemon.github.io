@@ -1,20 +1,9 @@
 # 3D PORTFOLIO WEBSITE!
-Created by Asher Memon in April, 2025
+Created by Asher Memon in April, 2025 (main branch)
 
 ## Instructions:
 
 1. Go to ashermemon.github.io!
 
 
-## Navigating the portfolio:
-
-- Use the mouse to look around
-
-- Click on different disks to navigate to different pages on the website
-
-- Click on the monitor buttons to reduce the look speed, so you can focus on the screen
-
-
-### 3D models made in Blender
-### 3D portfolio made using three.js
-### 2D website made in SquareSpace and exported as HTML
+## The current site contains a new portfolio website created in July 2026. The original project (3d version) is on the main branch but is not hosted
